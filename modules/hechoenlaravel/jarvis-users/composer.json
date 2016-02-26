@@ -1,0 +1,27 @@
+{
+	"name": "hechoenlaravel/jarvis-users",
+	"description": "Users and Permissions management for Jarvis Platform",
+	"keywords": ["JarvisApp", "Laravel Framework", "Business Application Platform", "BAP"],
+	"type": "jarvis-platform-module",
+	"license" : "MIT",
+	"authors": [
+		{
+			"name": "Jose Fonseca",
+			"email": "jose@ditecnologia.com"
+		}
+	],
+	"require": {
+        "zizaco/entrust": "1.4.*",
+        "lucadegasperi/oauth2-server-laravel": "5.0.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Modules\\Users\\": ""
+		}
+	},
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "preferred-install": "dist"
+    }
+}
